@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Pulse Care",
+    "slug": "pulse-care",
+    "scheme": "pulsecare",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
