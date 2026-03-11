@@ -1,30 +1,29 @@
 # Pulse Care (Expo Go)
 
-Pulse Care is a women’s menstrual wellness app prototype built with **React Native + Expo Go**.
+Pulse Care is now a clean **Expo Go + React Native** project for menstrual wellness tracking.
 
-## What is implemented now
-- Cycle and lifestyle logging inputs (period start, cycle length, sleep, water, mood).
-- Rule-based personal insight nudge based on daily inputs.
-- Stage 1 to Stage 5 cycle education cards.
-- Mother–daughter linked profile concept section (MVP content block).
+## Implemented MVP
+- Daily logging inputs: period start date, cycle length, sleep, water, mood.
+- Rule-based wellness insight nudge.
+- Cycle stage education cards (Stage 1 to Stage 5).
+- Mother–daughter profile concept section.
 
-## Run locally
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
-2. Start the Expo server:
-   ```bash
-   npm run start
-   ```
-3. Open in **Expo Go** (Android/iOS) by scanning the QR code.
+## Project Structure
+- `app/` Expo Router screens (`_layout.tsx`, `index.tsx`).
+- `app.json` Expo app config.
+- `package.json` scripts and dependencies.
+- `docs/pulse-care-expo-roadmap.md` product roadmap.
 
-## Web preview
+## Run
+```bash
+npm install
+npm run start
+```
+
+For browser preview:
 ```bash
 npm run web
 ```
 
-## Next steps
-- Persist logs to Supabase/Firebase.
-- Add authentication and mother-daughter role permissions.
-- Add trend charts and cycle summary reports.
+## Note
+Legacy Flutter scaffold files were removed so the repository reflects only the Expo implementation.
